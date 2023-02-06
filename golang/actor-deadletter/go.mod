@@ -1,8 +1,9 @@
-module requestresponse
+module helloworld
 
 go 1.16
 
 require (
 	github.com/asynkron/goconsole v0.0.0-20160504192649-bfa12eebf716
 	github.com/asynkron/protoactor-go v0.0.0-20230131112514-d86fc29cd86d
+	golang.org/x/time v0.0.0-20220411224347-583f2d630306
 )

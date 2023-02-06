@@ -1,4 +1,4 @@
-module requestresponse
+module setbehavior
 
 go 1.16
 

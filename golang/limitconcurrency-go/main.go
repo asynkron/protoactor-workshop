@@ -3,9 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/AsynkronIT/goconsole"
-	"github.com/AsynkronIT/protoactor-go/actor"
-	"github.com/AsynkronIT/protoactor-go/router"
+	"github.com/asynkron/protoactor-go/actor"
+	"github.com/asynkron/protoactor-go/router"
 )
 
 type workItem struct{ i int }

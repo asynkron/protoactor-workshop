@@ -1,4 +1,4 @@
-module requestresponse
+module lifecycleevents
 
 go 1.16
 
