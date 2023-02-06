@@ -4,10 +4,9 @@
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Grpc.Tools" Version="2.51.0" PrivateAssets="All" />
+        <PackageReference Include="Proto.Actor" Version="1.1.0" />
     </ItemGroup>
-    <ItemGroup>
-        <ProjectReference Include="..\..\..\src\Proto.Actor\Proto.Actor.csproj" />
-    </ItemGroup>
+
     <ItemGroup>
         <Protobuf Include="Chat.proto" GrpcServices="Server" AdditionalImportDirs=".; ..\..\..\src" />
     </ItemGroup>
