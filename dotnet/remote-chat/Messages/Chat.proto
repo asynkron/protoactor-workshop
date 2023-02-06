@@ -30,4 +30,5 @@ message NickRequest {
 message NickResponse {
     string OldUserName = 1;
     string NewUserName = 2;
+    
 }

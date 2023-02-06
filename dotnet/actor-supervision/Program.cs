@@ -15,7 +15,8 @@ internal class Program
 {
     private static void Main()
     {
-        var context = new RootContext(new ActorSystem());
+        var system = new ActorSystem();
+        var context = system.Root;
         Log.SetLoggerFactory(LoggerFactory.Create(b => b.AddConsole().SetMinimumLevel(LogLevel.Debug)));
 
         var props = Props.FromProducer(() => new ParentActor())
@@ -30,6 +31,8 @@ internal class Program
             }
         );
 
+        context.Send(actor, new Recoverable());
+        context.Send(actor, new Recoverable());
         context.Send(actor, new Recoverable());
         context.Send(actor, new Fatal());
         //why wait?
