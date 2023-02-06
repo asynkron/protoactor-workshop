@@ -386,6 +386,8 @@ github.com/asaskevich/govalidator v0.0.0-20190424111038-f61b66f89f4a/go.mod h1:l
 github.com/asynkron/goconsole v0.0.0-20160504192649-bfa12eebf716 h1:SgyG4sXkrlalMoCfp20LiNPNhfJS7ez3opNdtihIxPc=
 github.com/asynkron/goconsole v0.0.0-20160504192649-bfa12eebf716/go.mod h1:/zSlF0T2ArAsTG6SVu8d8qlK+19jjudjA3wWsxnGFHg=
 github.com/asynkron/gofun v0.0.0-20220329210725-34fed760f4c2/go.mod h1:5GMOSqaYxNWwuVRWyampTPJEntwz7Mj9J8v1a7gSU2E=
+github.com/asynkron/protoactor-go v0.0.0-20230131112514-d86fc29cd86d h1:4cW5eEafn/+w/afnvTXOdZ+DZ4dkKbE0wdYwxpGqRSg=
+github.com/asynkron/protoactor-go v0.0.0-20230131112514-d86fc29cd86d/go.mod h1:zFlr8/vWcBgonl1lfurAzkzvhXyUvCcw2rYkcyrKv6s=
 github.com/benbjohnson/clock v1.1.0/go.mod h1:J11/hYXuz8f4ySSvYwY0FKfm+ezbsZBKZxNJlLklBHA=
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
 github.com/beorn7/perks v1.0.0/go.mod h1:KWe93zE9D1o94FZ5RNwFwVgaQK1VOXiVxmqh+CedLV8=

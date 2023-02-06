@@ -1,5 +1,6 @@
 github.com/Workiva/go-datastructures v1.0.53 h1:J6Y/52yX10Xc5JjXmGtWoSSxs3mZnGSaq37xZZh7Yig=
 github.com/Workiva/go-datastructures v1.0.53/go.mod h1:1yZL+zfsztete+ePzZz/Zb1/t5BnDuE2Ya2MMGhzP6A=
+github.com/asynkron/goconsole v0.0.0-20160504192649-bfa12eebf716/go.mod h1:/zSlF0T2ArAsTG6SVu8d8qlK+19jjudjA3wWsxnGFHg=
 github.com/asynkron/protoactor-go v0.0.0-20230131112514-d86fc29cd86d h1:4cW5eEafn/+w/afnvTXOdZ+DZ4dkKbE0wdYwxpGqRSg=
 github.com/asynkron/protoactor-go v0.0.0-20230131112514-d86fc29cd86d/go.mod h1:zFlr8/vWcBgonl1lfurAzkzvhXyUvCcw2rYkcyrKv6s=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=
