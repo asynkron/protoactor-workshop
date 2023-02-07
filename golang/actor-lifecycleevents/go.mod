@@ -1,6 +1,6 @@
 module lifecycleevents
 
-go 1.16
+go 1.19
 
 require (
 	github.com/asynkron/goconsole v0.0.0-20160504192649-bfa12eebf716
