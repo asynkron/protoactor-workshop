@@ -1,8 +1,6 @@
 package main
 
 import (
-	"runtime"
-
 	console "github.com/asynkron/goconsole"
 	"github.com/asynkron/protoactor-go/actor"
 	"github.com/asynkron/protoactor-go/remote"
@@ -14,7 +12,6 @@ var (
 )
 
 func main() {
-	runtime.GOMAXPROCS(runtime.NumCPU())
 
 	props := actor.PropsFromFunc(func(ctx actor.Context) {})
 	cfg := remote.Configure("127.0.0.1", 8080, remote.WithKinds(remote.NewKind("remote", props)))

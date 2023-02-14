@@ -16,6 +16,7 @@ type SetBehaviorActor struct {
 
 func (state *SetBehaviorActor) Receive(context actor.Context) {
 	state.Behavior.Receive(context)
+	state.Happy(context)
 }
 
 func (state *SetBehaviorActor) Happy(context actor.Context) {

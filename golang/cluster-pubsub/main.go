@@ -15,7 +15,8 @@ func main() {
 	c := startNode()
 
 	for i := 0; i < 3; i++ {
-		GetUserActorGrainClient(c, "user"+strconv.Itoa(i)).Connect(&Empty{})
+		client := GetUserActorGrainClient(c, "user"+strconv.Itoa(i))
+		client.Connect(&Empty{})
 	}
 
 	console.ReadLine()

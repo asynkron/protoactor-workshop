@@ -51,7 +51,7 @@ func main() {
 	system := actor.NewActorSystem()
 	decider := func(reason interface{}) actor.Directive {
 		fmt.Println("handling failure for child")
-		return actor.StopDirective
+		return actor.RestartDirective
 	}
 	supervisor := actor.NewOneForOneStrategy(10, 1000, decider)
 	rootContext := system.Root
