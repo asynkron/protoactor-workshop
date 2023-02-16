@@ -15,6 +15,7 @@ type (
 func (state *helloActor) Receive(context actor.Context) {
 	switch msg := context.Message().(type) {
 	case *hello:
+
 		fmt.Printf("Hello %v\n", msg.Who)
 	}
 }

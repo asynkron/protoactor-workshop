@@ -16,7 +16,6 @@ type SetBehaviorActor struct {
 
 func (state *SetBehaviorActor) Receive(context actor.Context) {
 	state.Behavior.Receive(context)
-	state.Happy(context)
 }
 
 func (state *SetBehaviorActor) Happy(context actor.Context) {
@@ -24,6 +23,7 @@ func (state *SetBehaviorActor) Happy(context actor.Context) {
 	case *Hello:
 		fmt.Printf("Hello %v, I'm so happy\n", msg.Who)
 		state.Become(state.Angry)
+
 	}
 }
 

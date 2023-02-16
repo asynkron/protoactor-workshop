@@ -53,6 +53,7 @@ func main() {
 		fmt.Println("handling failure for child")
 		return actor.RestartDirective
 	}
+
 	supervisor := actor.NewOneForOneStrategy(10, 1000, decider)
 	rootContext := system.Root
 	props := actor.

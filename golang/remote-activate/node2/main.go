@@ -1,8 +1,6 @@
 package main
 
 import (
-	"runtime"
-
 	"remoteactivate/messages"
 
 	console "github.com/asynkron/goconsole"
@@ -26,8 +24,6 @@ func newHelloActor() actor.Actor {
 }
 
 func main() {
-	runtime.GOMAXPROCS(runtime.NumCPU())
-
 	system := actor.NewActorSystem()
 	remoteConfig := remote.Configure("127.0.0.1", 8080,
 		remote.WithKinds(remote.NewKind("hello", actor.PropsFromProducer(newHelloActor))))

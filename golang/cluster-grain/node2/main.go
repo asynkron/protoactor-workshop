@@ -20,6 +20,7 @@ func (h HelloGrain) Terminate(ctx cluster.GrainContext)      {}
 func (h HelloGrain) ReceiveDefault(ctx cluster.GrainContext) {}
 
 func (h HelloGrain) SayHello(request *shared.HelloRequest, ctx cluster.GrainContext) (*shared.HelloResponse, error) {
+
 	return &shared.HelloResponse{Message: "Hello " + request.Name}, nil
 }
 
